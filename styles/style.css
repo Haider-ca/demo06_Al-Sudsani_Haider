@@ -1,1 +1,135 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
+
+/* New Color Palette:
+* Lightest (Text):         #f2fbf2      (text, contrast with dark)
+* Dark Green (Primary):    #005a00      
+* Light Green (Secondary): #72b372      (canvas background)
+* Reddish-Brown (Accent):  #b75858
+*/
+
+
+
+.form-control[type="search"] {
+    color: #115777 !important; 
+    background-color: #D4E4F3 !important;    
+    border: 2px solid #A4CCFC !important;  
+    border-radius: 5px;  
+    padding: 10px;  
+}
+
+
+.btn-outline-success {
+    color: #115777 !important;                
+    background-color: #A4CCFC !important;     
+    border-color: #115777 !important;        
+}
+
+
+.btn-outline-success:hover {
+    background-color: #A4CCFC !important;
+    color: #D4E4F3 !important;                  
+}
+
+
+.bg-info {
+    background-color: #115777 !important; 
+
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #F2F4F3;            
+    font-family: 'Caveat', cursive;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.btn-info {
+    color: #D4E4F3;           
+    background-color: #A4CCFC; 
+    border-color: #115777;    
+}
+
+.btn-primary {
+    color: #115777;           
+    font-size: 150%;
+    background-color: #A4CCFC; 
+    border-color: #115777;    
+    border-width: thick;
+    
+}
+
+body {
+    background-color: #D4E4F3; 
+}
+
+
+.form-group label {
+    color: #115777 !important;  
+    font-size: 1.25rem;
+}
+
+.form-group input[type="text"] {
+    color: #115777 !important; 
+    background-color: #D4E4F3 !important;
+    border: 2px solid #115777 !important; 
+}
+
+
+input.form-control {
+    color: #115777 !important; 
+    background-color: #D4E4F3 !important;  
+}
+
+
+.btn-secondary.dropdown-toggle {
+    color: #D4E4F3 !important;  
+    background-color: #115777 !important;  
+    border-color: #A4CCFC !important;  
+}
+
+
+.dropdown-menu .dropdown-item {
+    color: #115777 !important;
+    background-color: #D4E4F3 !important;  
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #115777 !important;  
+    color: #D4E4F3 !important;    
+}
+
+
+
+.btn-outline-primary {
+    color: #D4E4F3 !important;              
+    background-color: #A4CCFC !important;   
+    border-color: #115777 !important;  
+}
+
+.btn-outline-primary:hover {
+    background-color: #A4CCFC !important;   
+    color: #115777 !important;              
+}
+
+
+.btn-check:checked + .btn-outline-primary {
+    background-color: #115777 !important;  
+    color: #D4E4F3 !important; 
+   
+}
+
+
+
+
+
+footer {
+    background-color: #115777; 
+    color: #D4E4F3;
+ 
+}
+
 
